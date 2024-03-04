@@ -1,0 +1,36 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: blanchedalmond;
+    background-color: black;
+    line-height: .85;
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color:brown;
+}
+
+h4{
+    font-size: 55px;
+    line-height: .85;
+}
+
+h2{
+    color:darkcyan;
+}
+
+h5{
+    font-style: italic;
+    font-size: 20px;
+}
