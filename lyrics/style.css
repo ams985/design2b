@@ -1,0 +1,43 @@
+body{
+    background-color:lightgrey;
+}
+
+
+h1 {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+  
+.blue{
+  color:blue;
+}
+
+.orange{
+  color:orangered;
+}
+
+.purple{
+  color: purple;
+}
+
+.green{
+  color: green;
+}
+
+.updown{
+  text-decoration-line: overline underline;
+}
+
+.up{
+  text-decoration-line: overline;
+}
+
+.down{
+  text-decoration-line: underline;
+}
+
+
+
+  
