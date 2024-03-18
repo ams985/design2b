@@ -1,0 +1,155 @@
+body {
+	background: #cccccc;
+}
+
+/* do NOT modify the canvas */
+.canvas {
+	width: 1000px;
+	height: 600px;
+	margin: 100px auto;
+	background: #fff8de;
+	position: relative;
+}
+
+/* modify the assets below */
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+	transform: scale(0.5);
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+.circle {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	top: 100px;
+	left: 300px;
+	position: absolute;
+
+	filter: drop-shadow(10px 10px 4px grey);
+
+	background: rgb(237,234,234);
+	background: linear-gradient(90deg, rgba(237,234,234,1) 0%, rgba(246,246,246,1) 47%, rgba(182,177,182,1) 79%, rgba(190,183,190,1) 100%);
+}
+
+.insideCircle{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	top: 150px;
+	left: 350px;
+	position: absolute;
+	z-index: 1;
+
+	background: rgb(190,183,190);
+	background: linear-gradient(90deg, rgba(190,183,190,1) 0%, rgba(182,177,182,1) 25%, rgba(246,246,246,1) 46%, rgba(255,255,255,1) 100%);
+}
+
+.food1{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid #ffc905;
+	position: absolute;
+	top: 10px;
+	left: 100px; 
+	transform: scale(0.5);
+
+	filter: drop-shadow(10px 10px 4px grey);
+
+	
+}
+
+.food2{
+	width: 70px;
+	height: 90px;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	border-radius: 50%;
+
+	filter: drop-shadow(10px 10px 4px grey);
+
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(186,186,186,1) 95%, rgba(226,226,226,1) 100%);
+}
+
+.food3{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	filter: drop-shadow(10px 10px 4px grey);
+	background: rgb(195,229,172);
+	background: linear-gradient(180deg, rgba(195,229,172,1) 20%, rgba(33,84,30,1) 66%, rgba(84,152,70,1) 100%);
+}
+
+.drink{
+	width: 150px;
+	height: 150px;
+	left: 700px;
+	top: 50px;
+	border-radius: 50%;
+	position: absolute; 
+
+	background: rgb(198,235,238);
+	background: radial-gradient(circle, rgba(198,235,238,1) 0%, rgba(44,179,232,1) 49%, rgba(205,235,238,1) 100%);
+
+	filter: drop-shadow(10px 10px 4px grey);
+}
+
+.fork{
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	width: 50px;
+	height: 300px;
+
+	filter: drop-shadow(10px 10px 4px grey);
+
+	background: rgb(48,47,47);
+	background: linear-gradient(180deg, rgba(48,47,47,1) 14%, rgba(136,123,123,1) 40%, rgba(227,214,214,1) 57%, rgba(103,93,93,1) 65%, rgba(249,249,249,1) 79%, rgba(73,73,73,1) 100%);
+}
+
+.prong1{
+	position: absolute;
+	background: rgb(255,248,222);
+	background: linear-gradient(-180deg, rgba(255,248,222,1) 7%, rgba(148,148,148,1) 100%);
+	top: 0px;
+	left: 16.67px;
+	width: 4px;
+	height: 40px;
+}
+
+.prong2{
+	position: absolute;
+	background: rgb(255,248,222);
+	background: linear-gradient(-180deg, rgba(255,248,222,1) 7%, rgba(148,148,148,1) 100%);
+	top: 0px;
+	left: 33.33px;
+	width: 4px;
+	height: 40px;
+}
+
+#square2 {
+	background: green;
+	width: 50px;
+	height: 300px;	
+}
